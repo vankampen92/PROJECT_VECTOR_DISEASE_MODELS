@@ -1,0 +1,5 @@
+make clean
+make BASIN=RANDOM_SCAN TYPE_of_MAIN=_FULL DRAW=DRAW_LINES_PHASE_DIAGRAM
+make clean
+
+

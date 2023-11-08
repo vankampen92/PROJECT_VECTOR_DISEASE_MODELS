@@ -1,0 +1,23 @@
+Main model definition compilation options:
+TIME_DEPENDENCE
+SUPERINFECTION
+SUPERINFECTION_SIGMA
+SUPERINFECTION_RECOVERY
+NON_THRESHOLD
+APPLYING_TREND
+CASES_1-LXVnW
+
+MONTH_TIME_INTEGRATION
+I_PR_19p_B_101
+CPGPLOT_REPRESENTATION
+GSL_RKF45
+GONO_INDOORS
+FIXED_T_SHIFT_TEMPERATURE
+NON_EVOLUTION_of_RESISTANCE
+MAIN program: main.c
+---------------------------------------
+All compilation options as passed to the compiler through CXXFLAGS:
+-I/usr/local/pgplot -I/home/dalonso/VECTOR_DISEASE_MODELS/Include -I/home/dalonso/VECTOR_DISEASE_MODELS/ -I/home/dalonso/CPGPLOT/ -I/home/dalonso/CPGPLOT/library/ -I/home/dalonso/CPGPLOT/library_basic_UTL/ -I/home/dalonso/VECTOR_DISEASE_MODELS/Library/C_NumRecip/ -I/home/dalonso/VECTOR_DISEASE_MODELS/ODE_Definitions/Include_ODE/ -DNON_VERBOSE -DCPGPLOT_REPRESENTATION -DFILE_REPRESENTATION  -DGSL_RKF45 -DTIME_DEPENDENCE -DAPPLYING_TREND -DMONTH_TIME_INTEGRATION   -DNON_THRESHOLD -DSUPERINFECTION -DSUPERINFECTION_SIGMA -DSUPERINFECTION_RECOVERY  -DTRUE_TEMPERATURE -DFIXED_T_SHIFT_TEMPERATURE -DN_O_N___K_L_E_I_N -DNON_WATER_MATURATION_DELAY -DGONO_INDOORS -DNON_EVOLUTION_of_RESISTANCE  -DCURRENT_TIME_RDN_SEED  -DLXVnW -DCASES_1 -DCASES_1LXVnW -DERROR_FUNCTION -DODE -DNUMERICAL_RECIPES -DHAVE_INLINE  -g 
+---------------------------------------
+All linking options as passed to the linker through LDFLAGS, CPGPLOT_LIG and LIBS:
+-lm -lgsl -lgslcblas -lNumRec -lNRUTL -L/home/dalonso/VECTOR_DISEASE_MODELS/Library/C_NumRecip/ -lda_cpgplot_XY_GRID_FILE -lda_cpgplot_BASIC -L/usr/local/pgplot -L/home/dalonso/CPGPLOT/library/ -L/home/dalonso/CPGPLOT/library_basic_UTL/ -L/home/dalonso/VECTOR_DISEASE_MODELS/Library/C_NumRecip/ -L/usr/lib -lcpgplot -lpgplot -L/usr/lib -lpng -L/usr/lib -lX11

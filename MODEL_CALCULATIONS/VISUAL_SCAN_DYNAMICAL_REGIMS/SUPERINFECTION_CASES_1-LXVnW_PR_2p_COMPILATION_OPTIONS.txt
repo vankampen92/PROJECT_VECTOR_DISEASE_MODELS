@@ -1,0 +1,20 @@
+Main model definition compilation options:
+GSL_Eigenvalue_Calculation.c
+CASES_1-LXVnW
+
+
+I_PR_2p_B_101
+SUPERINFECTION
+ODE_RESTRICTED_JACOBIAN
+CPGPLOT_REPRESENTATION
+
+
+
+
+MAIN program: main_Random.c
+---------------------------------------
+All compilation options as passed to the compiler through CXXFLAGS:
+-I/usr/local/pgplot -I/home/dalonso/VECTOR_DISEASE_MODELS/Include/ -I/home/dalonso/VECTOR_DISEASE_MODELS/ -I/home/dalonso/CPGPLOT/ -I/home/dalonso/CPGPLOT/library/ -I/home/dalonso/CPGPLOT/library_basic_UTL/ -I/home/dalonso/VECTOR_DISEASE_MODELS//Library/C_NumRecip/ -I/home/dalonso/VECTOR_DISEASE_MODELS/ODE_Definitions/Include_ODE_RESTRICTED_JACOBIAN/ -DNUMERICAL_RECIPES -DNON_VERBOSE -DCPGPLOT_REPRESENTATION -DFILE_REPRESENTATION  -DTHRESHOLD -DSUPERINFECTION -DSUPERINFECTION_SIGMA -DSUPERINFECTION_RECOVERY  -DODE_RESTRICTED_JACOBIAN -DCURRENT_TIME_RDN_SEED  -DERROR_FUNCTION -DLXVnW -DCASES_1 -DCASES_1LXVnW -DHAVE_INLINE  -g 
+---------------------------------------
+All linking options as passed to the linker through LDFLAGS, CPGPLOT_LIG and LIBS:
+-lm -lgsl -lgslcblas -lNumRec -lNRUTL -lda_cpgplot_XY_GRID_FILE -lda_cpgplot_BASIC -L/usr/local/pgplot/ -L/home/dalonso/CPGPLOT/library/ -L/home/dalonso/CPGPLOT/library_basic_UTL/ -L/home/dalonso/VECTOR_DISEASE_MODELS//Library/C_NumRecip/ -L/usr/lib -lcpgplot -lpgplot -L/usr/lib -lpng -L/usr/lib -lX11

@@ -1,0 +1,6 @@
+Main model definition compilation options:
+CASES_1-LXVnW
+SUPERINFECTION
+NON_THRESHOLD
+All compilation options as passed to the compiler through CXXFLAGS:
+-I/usr/local/pgplot -I/home/dalonso/VECTOR_DISEASE_MODELS/Include/ -I/home/dalonso/VECTOR_DISEASE_MODELS/ -I/home/dalonso/CPGPLOT/ -I/home/dalonso/CPGPLOT/library/ -I/home/dalonso/CPGPLOT/library_basic_UTL/ -I/home/dalonso/VECTOR_DISEASE_MODELS//Library/C_NumRecip/ -I/home/dalonso/VECTOR_DISEASE_MODELS/ODE_Definitions/Include_ODE/ -DCASES_1LXVnW -DODE -DLXVnW -DCASES_1 -DNUMERICAL_RECIPES -DNON_VERBOSE -DSUPERINFECTION -DNON_THRESHOLD -g 

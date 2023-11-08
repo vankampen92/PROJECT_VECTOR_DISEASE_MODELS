@@ -1,0 +1,31 @@
+\begin{table}
+\begin{tabular}{p{5cm}ccccc}
+{\bf Model Parameter} & {\bf Symbol} & {\bf Min. Value} & {\bf Max. Value} & {\bf A}\\
+\hline\hline
+  H: Death rate & $\delta_H$ & 0.01 &  0.1 &  0.5\\
+  H: Rate of loss of immunity & $\sigma_0$ &    0 &  0.1 & 0.00067\\
+  H: Recovery rate ($I \rightarrow R$) & $r_0$ & 1e-06 & 0.01 & 0.01 \\
+  H: Infectivity probability ($M \rightarrow H$) & $b$ & 0.01 &    1 &  0.1\\
+  H: Exposed number & $n_H$ &    1 &   50 &    0\\
+  H: Exposed rate & $\gamma$ & 0.048 & 0.14 & 0.05 & 0.05\\
+  H: External force of infection & $\beta_e$ &    0 & 0.0001 & 5e-05\\
+  H: Detection probability & $\chi$ &    0 &  0.5 &  0.2\\
+  H: Recovery rate ($C \rightarrow S$) & $\rho$ &    0 &    1 &  0.2\\
+  H: Case probability & $\eta$ & 1e-06 &  0.1 & 0.01\\
+  H: Recovery rate ($C \rightarrow I$) & $\nu$ &  0.2 &    1 &  0.3\\
+\hline
+  L: Carraying capacity & $K_0$ & 1e+02 & 1e+05 & 1e+05\\
+  L: Development rate & $d$ & 0.01 &  0.2 & 0.067\\
+  L: Death rate & $\delta_L$ & 0.01 &  0.1 &  0.5\\
+  M: No of larval recruits per oviposition event & $N_e$ &    0 & 1e+02 &   66\\
+  M: Biting rate & $a$ &  0.1 &  0.5 & 0.33\\
+  M: Infectivity probability ($H \rightarrow M$) & $c$ &    0 &    1 & 0.05\\
+  M: Death rate & $\delta_M$ & 0.01 &  0.1 & 0.05\\
+\hline
+  P: Exposed number & $n_V$ &    1 &   50 &    0\\
+  P: Exposed rate & $\gamma$ & 0.05 &  0.1 & 0.083\\
+\hline\hline
+\smallskip
+\end{tabular}
+\caption {Minimum and maximum values define the subregion of the parameter space we have explored. Rates are given in day$^{-1}$ units. {\small H, M, L, P} labels on the first row defined Human-, Mosquito-, Larva-, and {\em Plasmodium}-related parameters. \label{Table_Full}} 
+\end{table}
